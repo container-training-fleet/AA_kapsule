@@ -1,0 +1,22 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: movy
+  namespace: movy-test
+spec:
+  ingressClassName: traefik
+  rules:
+    - host: movy.51.15.207.210.nip.io
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: web
+                port:
+                  number: 80
+  tls:
+    - hosts:
+      - movy.51.15.207.210.nip.io
+
