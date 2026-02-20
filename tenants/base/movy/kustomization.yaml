@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
 - cluster-role.yaml
 - ingress.yaml
-#- network-policies.yaml
+- network-policies.yaml
 - rbac.yaml
 - sync.yaml
