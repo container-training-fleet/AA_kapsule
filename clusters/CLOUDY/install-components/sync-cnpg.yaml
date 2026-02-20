@@ -6,7 +6,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m0s
-  path: ./k8s/flux/cnpg
+  path: ./k8s/flux/cloudnative-pg
   prune: false
   sourceRef:
     kind: GitRepository
