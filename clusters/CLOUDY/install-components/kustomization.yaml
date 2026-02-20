@@ -3,4 +3,5 @@ kind: Kustomization
 resources:
 - sync-monitoring.yaml
 - sync-loki.yaml
+- sync-traefik.yaml
 - sync.yaml
