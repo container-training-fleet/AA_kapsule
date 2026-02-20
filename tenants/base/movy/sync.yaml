@@ -7,8 +7,8 @@ metadata:
 spec:
   interval: 1m0s
   ref:
-    branch: movy-test
-  url: https://github.com/Musk8teers/container.training-spring-music/
+    branch: movy
+  url: https://github.com/container-training-fleet/container.training-spring-music/
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
