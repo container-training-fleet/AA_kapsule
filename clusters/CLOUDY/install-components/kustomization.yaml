@@ -4,5 +4,6 @@ resources:
 - sync-monitoring.yaml
 - sync-loki.yaml
 - sync-olm.yaml
+- sync-cnpg.yaml
 - sync-traefik.yaml
 - sync.yaml
